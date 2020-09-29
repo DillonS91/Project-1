@@ -22,13 +22,19 @@
       </a-assets>
       
       <!--camera-->
-      <a-entity camera look-controls wasd-controls="acceleration: 500" position="5.000 1.600 5.000"></a-entity>
+      <a-entity camera look-controls wasd-controls="acceleration: 500" position="-5.000 1.600 2.000"></a-entity>
       
       <!--# # # models # # #-->
       
       <!--Windows-->
       <a-entity gltf-model="#window" scale="10 10 10" position="1.875 0.800 4.942" rotation="0 180 0"></a-entity>
       <a-entity gltf-model="#window" scale="10 10 10" position="1.000 0.800 4.942" rotation="0 180 0"></a-entity>
+      <a-entity gltf-model="#window" scale="10 10 10" position="-4.105 0.800 4.942" rotation="0 180 0"></a-entity>
+      <a-entity gltf-model="#window" scale="10 10 10" position="-4.980 0.800 4.942" rotation="0 180 0"></a-entity>
+      
+      <a-entity gltf-model="#window" scale="10 10 10" position="5.045 0.800 -0.500" rotation="0 -90 0"></a-entity>
+      <a-entity gltf-model="#window" scale="10 10 10" position="5.045 0.800 0.375" rotation="0 -90 0"></a-entity>
+      <a-entity gltf-model="#window" scale="10 10 10" position="5.045 0.800 1.250" rotation="0 -90 0"></a-entity>
       
       <!--Doors-->
       <a-entity gltf-model="#door_out" scale="0.013 0.011 0.011" position="-1.651 0.000 4.877" rotation="0 180 0"></a-entity>
@@ -50,23 +56,42 @@
       <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 2.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>-->
       
       <!--# # # Walls # # #-->
-      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:10" position="-10.000 1.500 0.000" rotation="0 90 0" material="shader: standard; roughness: 1; 
+      
+      <!--East Wall-->
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:10" position="-8.696 1.500 0.000" rotation="0 90 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
-      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:10" position="4.992 1.500 0.000" rotation="0 90 0" material="shader: standard; roughness: 1; 
+      
+      <!--West Wall-->
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:3" position="4.992 1.500 3.340" rotation="0 90 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:4" position="4.992 1.500 -2.908" rotation="0 90 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:5" position="4.993 0.375 0.375" rotation="0 -90 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:9.5" position="4.993 2.776 0.375" rotation="0 -90 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      
+      <!--South Wall-->
       <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:15" position="-2.386 1.500 -4.873" rotation="0 180 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
       
       <!--North Wall-->
-      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:5" position="1.852 0.382 4.883" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:5" position="1.852 0.375 4.883" rotation="0 180 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
-       <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:15" position="-2.286 2.855 4.883" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:15" position="-2.286 2.776 4.883" rotation="0 180 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
       <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:3" position="3.77 1.500 4.882" rotation="0 180 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
-      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:1.5" position="-0.352 1.500 4.882" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:1.5" position="-0.340 1.500 4.882" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:1.5" position="-2.953 1.500 4.882" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:1.05; width:5" position="-4.697 0.375 4.883" rotation="0 180 0" material="shader: standard; roughness: 1; 
+      src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
+      <a-entity static-body geometry="primative: box; depth:0.25; height:3; width:3" position="-7.070 1.500 4.882" rotation="0 180 0" material="shader: standard; roughness: 1; 
       src: url(Textures/white_wall_texture.jpg); repeat:2 1"></a-entity>
       
+      <!--# # # Walls # # #-->
       
       <!--Ceiling -->
       <a-entity static-body geometry="primative: box; depth:10; height:0.25; width: 15" position="-2.374 3.125 0.000" rotation="0 180 0" material="shader: flat; side: double; opacity: 1; 
