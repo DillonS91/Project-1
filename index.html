@@ -24,12 +24,11 @@
         <a-assets-item id="OC" src="models/office_chair.glb"></a-assets-item>
         <a-assets-item id="gundam" src="models/gundam.glb"></a-assets-item>
         <a-assets-item id="tie" src="models/TIE_Fighter.glb"></a-assets-item>
-        <a-assets-item id="ZVG" src="models/Zaku_VS_Gundam.glb"></a-assets-item>
+        <a-assets-item id="ZVG" src="models/ZVG.glb"></a-assets-item>
         <a-assets-item id="TB" src="models/toolbox.glb"></a-assets-item>
         <a-assets-item id="tree" src="models/tree.glb"></a-assets-item>
         <a-assets-item id="TVstand" src="models/tv_stand.glb"></a-assets-item>
         <a-assets-item id="TV" src="models/TV.glb"></a-assets-item>
-        <a-assets-item id="SD" src="https://cdn.glitch.com/88c309e9-28e3-441a-b7b9-78633d0ac951%2Fstar_destroyer.glb?v=1601354543659"></a-assets-item>
       </a-assets>
       
       <!--camera-->
@@ -58,39 +57,45 @@
       <a-entity gltf-model="#door_out" scale="0.013 0.011 0.011" position="-1.651 0.000 4.877" rotation="0 180 0"></a-entity>
       
       <!--Props-->
-      <!--<a-entity gltf-model="#SD" scale="1 1 1" position="10 0 10" rotation="0 0 0"></a-entity>-->
       <a-entity gltf-model="#CF" scale="0.200 0.200 0.200" position="-1.924 2.641 -0.245"></a-entity>
       <a-entity gltf-model="#OC" scale="0.800 0.800 0.800" position="2.583 -0.008 -3.119" rotation="-180.000 37.500 -180.000"></a-entity>
       <a-entity gltf-model="#TVstand" scale="1.300 1.300 1.300" position="1.319 0.000 2.920" rotation="0.000 90.000 0.000"></a-entity>
       <a-entity gltf-model="#TV" scale="1.000 1.000 1.000" position="1.315 0.894 2.874" rotation="0.000 180.000 0.000"></a-entity>
       <a-entity gltf-model="#gundam" scale="0.070 0.070 0.070" position="4.299 0.995 -3.333" rotation="-75.633 -145.240 86.109"></a-entity>
       <a-entity gltf-model="#TB" scale="0.500 0.500 0.500" position="4.457 0.953 -2.549" rotation="0.000 -124.020 0.000"></a-entity>
-      
-      
+      <a-entity gltf-model="#ZVG" scale="0.001 0.001 0.001" position="4.263 1.009 -4.203" rotation="0.000 92.792 0.000"></a-entity>
+      <a-entity gltf-model="#tie" scale="0.050 0.050 0.050" position="3.527 1.147 -4.316" rotation="12.784 -28.882 -20.895"></a-entity>
+      <!--Trees-->
+      <a-entity gltf-model="#tree" scale="0.010 0.010 0.010" position="13.009 -0.650 2.988" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#tree" scale="0.010 0.010 0.010" position="4.641 -0.650 12.704" rotation="0 -90 0"></a-entity>
+      <a-entity gltf-model="#tree" scale="0.010 0.010 0.010" position="1.913 -0.650 10.250" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#tree" scale="0.010 0.010 0.010" position="-6.244 -0.650 8.433" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#tree" scale="0.010 0.010 0.010" position="9.647 -0.650 -4.356" rotation="0 -90 0"></a-entity>
       
       <!--# # # models # # #-->
       
-      <!--primatives-->
+      <!--# # # primatives # # #-->
+      
+      <!--cutting mat-->
       <a-box src="url(Textures/cutting_mat.jpg)" position="4.31357 0.954 -3.02694" scale="1.2 0.001 1" rotation="0 -90 0"></a-box>
+      <!--Computer Table-->
       <a-box src="url(Textures/wood_texture.jpg)" position="4.315 0.900 -3.499" scale="2.500 0.100 1.100" rotation="0 90 0"></a-box>
       <a-box src="url(Textures/wood_texture.jpg)" position="2.517 0.900 -4.267" scale="1.100 0.100 2.500" rotation="0 90 0"></a-box>
       <a-box position="1.380 0.428 -3.823" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f"></a-box>
       <a-box position="1.380 0.428 -4.700" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f"></a-box>
       <a-box position="3.901 0.428 -2.340" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f"></a-box>
       <a-box position="4.822 0.428 -2.340" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f"></a-box>
+      <!--model stands-->
+      <a-cylinder position="4.335 0.964 -4.261" scale="0.200 0.020 0.200" rotation="0 0 0" color="#1e232f"></a-cylinder>
+      <a-cylinder position="4.294 0.964 -4.303" scale="0.010 0.400 0.010" rotation="0 0 0" color="#1e232f"></a-cylinder>
+      <a-cylinder position="4.430 0.964 -4.152" scale="0.010 0.400 0.010" rotation="0 0 0" color="#1e232f"></a-cylinder>
+      <a-cylinder position="3.535 0.964 -4.297" scale="0.200 0.020 0.200" rotation="0 0 0" color="#1e232f"></a-cylinder>
+      <a-cylinder position="3.544 0.964 -4.298" scale="0.010 0.500 0.010" rotation="0 0 0" color="#1e232f"></a-cylinder>
+      <!--Couch-->
+      <a-box src="(Textures/leather-texture.jpg)" position="1 1 1" scale="1 1 1" rotation="0 0 0" color="#ffffff"></a-box>
       
+      <!--# # # primatives # # #-->
       
-      <!--
-      <a-box src="url(Textures/MYPEIN.jpg)" position="0 0.5 -3" rotation="0 45 0" color="#ffffff" shadow></a-box>
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 4.05 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 3.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="2 3.05 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="-2 3.05 -3" radius="1.25" color="#ffffff" shadow></a-sphere>    
-      <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>
-      <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>
-      <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>      
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 2.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
-      -->
       
       <!--# # # Walls # # #-->
       
@@ -135,7 +140,8 @@
       src: url(Textures/ceiling_texture.jpg); repeat:2 1"></a-entity>
       
       <!--environment-->
-      <a-sky src ="url(Textures/MYPEIN.jpg)"></a-sky>
+      <a-sky src="url(Textures/sky_texture.jpg)"></a-sky>
+      <a-plane src="url(Textures/grass_texture.jpg)" position="-2.5 -0.01 0" rotation="-90 0 0" width="100" height="100" repeat="10 10"></a-plane>
       <a-plane src="url(Textures/wood_floor_texture.jpg)" position="-2.5 0 0" rotation="-90 0 0" width="15" height="10" repeat="10 10"></a-plane>   
       
     </a-scene>
