@@ -18,6 +18,8 @@
       <a-assets>
         <a-assets-item id="window" src="models/window0.glb"></a-assets-item>
         <a-assets-item id="door_out" src="models/door2.glb"></a-assets-item>
+        <a-assets-item id="MKM" src="models/monitor_KB_mouse.glb"></a-assets-item>
+        <a-assets-item id="tower" src="models/computer_tower.glb"></a-assets-item>
         <a-assets-item id="SD" src="https://cdn.glitch.com/88c309e9-28e3-441a-b7b9-78633d0ac951%2Fstar_destroyer.glb?v=1601354543659"></a-assets-item>
       </a-assets>
       
@@ -36,15 +38,28 @@
       <a-entity gltf-model="#window" scale="10 10 10" position="5.045 0.800 0.375" rotation="0 -90 0"></a-entity>
       <a-entity gltf-model="#window" scale="10 10 10" position="5.045 0.800 1.250" rotation="0 -90 0"></a-entity>
       
+      <!--Computer-->
+      <a-entity gltf-model="#MKM" scale="1 1 1" position="0 0 0" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="tower" scale="1 1 1" position="1 1 1" rotation="0 0 0"></a-entity>
+      
       <!--Doors-->
       <a-entity gltf-model="#door_out" scale="0.013 0.011 0.011" position="-1.651 0.000 4.877" rotation="0 180 0"></a-entity>
       
       <!--Props-->
-      <a-entity gltf-model="#SD" scale="1 1 1" position="10 0 10"></a-entity>
+      <!--<a-entity gltf-model="#SD" scale="1 1 1" position="10 0 10"></a-entity>-->
       
       <!--# # # models # # #-->
       
-      <!--primatives
+      <!--primatives-->
+      <a-box src="url(Textures/wood_texture.jpg)" position="4.315 0.900 -3.499" scale="2.500 0.100 1.100" rotation="0 90 0" shadow></a-box>
+      <a-box src="url(Textures/wood_texture.jpg)" position="2.517 0.900 -4.267" scale="1.100 0.100 2.500" rotation="0 90 0" shadow></a-box>
+      <a-box position="1.380 0.428 -3.823" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f" shadow></a-box>
+      <a-box position="1.380 0.428 -4.700" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f" shadow></a-box>
+      <a-box position="3.901 0.428 -2.340" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f" shadow></a-box>
+      <a-box position="4.822 0.428 -2.340" scale="0.850 0.100 0.100" rotation="0 0 90" color="#1e232f" shadow></a-box>
+      
+      
+      <!--
       <a-box src="url(Textures/MYPEIN.jpg)" position="0 0.5 -3" rotation="0 45 0" color="#ffffff" shadow></a-box>
       <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 4.05 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
       <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 3.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
@@ -53,7 +68,8 @@
       <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>
       <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>
       <a-cylinder src="url(Textures/MYPEIN.jpg)" position="0 0.75 -3" radius="0.5" height="1.5" color="#ffffff" shadow></a-cylinder>      
-      <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 2.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>-->
+      <a-sphere src="url(Textures/MYPEIN.jpg)" position="0 2.55 -3" radius="1.25" color="#ffffff" shadow></a-sphere>
+      -->
       
       <!--# # # Walls # # #-->
       
