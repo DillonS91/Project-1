@@ -21,9 +21,11 @@ This project was made using glitch.com and Aframe.
 The bed, computer desk, couch, nightstand, bookshelf, and other miscellaneous models were made using primatives available in aframe.
 
 This environment allows the user to turn the lights on and off, as well as letting them change the color to red, green or blue.
+
 ![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/light_demo.gif)
 
 It also has a "covid mode" that changes elements in the room and adds new elements.
+
 ![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/covid_demo1.gif)
 
 ![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/covid_demo2.gif)
