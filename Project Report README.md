@@ -4,7 +4,16 @@
 
 ## VR Environment Link: 
 
+This project was made using glitch.com and Aframe.
+
 https://functional-sour-ridge.glitch.me/
+
+### Libraries Used:
+https://aframe.io/releases/1.0.4/aframe.min.js
+
+https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js
+
+https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js
 
 ## Demo Video Link:
 
