@@ -109,7 +109,9 @@ https://sketchfab.com/3d-models/laurel-tree-low-poly-f1a5baa9d2e24f27a98be75f23f
 
 https://sketchfab.com/3d-models/bacteria-1bf5fb9fb5c24ca1ba4f290e1b4a2839
 
+## Textures:
 
+All textures used on the primatives were taken from google image search.
 
 
 
