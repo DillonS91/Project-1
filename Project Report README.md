@@ -11,6 +11,8 @@ https://functional-sour-ridge.glitch.me/
 Brief version: https://youtu.be/CyWPddn0cVk
 -1 minute long
 
+https://www.youtube.com/watch?v=CyWPddn0cVk&feature=youtu.be
+
 Long version: https://youtu.be/y7eFKOUaj5M
 -2 minutes long (for class presentation)
 
