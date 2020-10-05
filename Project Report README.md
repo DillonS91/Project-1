@@ -1,6 +1,6 @@
 # VR Project 1 Report
 
-![](quick_look.gif)
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/quick_look.gif)
 
 ## VR Environment Link: 
 
