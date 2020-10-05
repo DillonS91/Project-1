@@ -29,6 +29,7 @@ All models were taken from Sketchfab.
 
 ### Computer Desk:
 ![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/Computer__desk.JPG)
+
 Office Chair:
 https://sketchfab.com/3d-models/office-chair-87a8de3461bf44848f3629fa8a8dcd68
 
@@ -55,6 +56,38 @@ https://sketchfab.com/3d-models/ms-gundam-rx-78-2-master-grade-ver-30-9bb03666dd
 Zaku vs. Gundam:
 https://sketchfab.com/3d-models/low-poly-ms-gundam-red-comet-kick-60c82a9d71ba4f5ab040b389ac835dc2
 
+### Nightstand:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/lamp_clock.JPG)
 
+Lamp:
+https://sketchfab.com/3d-models/low-poly-lamp-cd2831e25958420d974e050aeb9d2384
 
+Alarm Clock:
+https://sketchfab.com/3d-models/alarm-clock-household-props-10-b7832cf1396e4dcc9513e5e1acef182b
+
+### Bookshelf:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/books.JPG)
+
+Books:
+https://sketchfab.com/3d-models/simple-bookstack-39f022bceff044c486f2d15498ec441b
+
+https://sketchfab.com/3d-models/leather-books-608884fe403b41d0970cbf0332646747
+
+https://sketchfab.com/3d-models/random-books-df5211e734f044229951a0c46c3f83ba
+
+### TV And TV stand:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/TV_TVstand.JPG)
+
+TV:
+https://sketchfab.com/3d-models/2010-flat-screen-tv-7d46ca5855b0496dbb289cbe7366c850
+
+TV stand:
+https://sketchfab.com/3d-models/tv-stand-38b4e5de27a5415ba830e3a831b56acc
+
+### Ceiling Fan:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/Ceiling_fan.JPG)
+
+https://sketchfab.com/3d-models/ceiling-fan-household-props-challenge-day-19-2dda12be0b5c465394ff651cd7eb215a
+
+### Door:
 
