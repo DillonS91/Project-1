@@ -4,16 +4,7 @@
 
 ## VR Environment Link: 
 
-This project was made using glitch.com and Aframe.
-
 https://functional-sour-ridge.glitch.me/
-
-### Libraries Used:
-https://aframe.io/releases/1.0.4/aframe.min.js
-
-https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js
-
-https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js
 
 ## Demo Video Link:
 
@@ -22,6 +13,28 @@ Brief version: https://youtu.be/CyWPddn0cVk
 
 Long version: https://youtu.be/y7eFKOUaj5M
 -2 minutes long (for class presentation)
+
+## Project Description:
+
+This project was made using glitch.com and Aframe.
+
+The bed, computer desk, couch, nightstand, bookshelf, and other miscellaneous models were made using primatives available in aframe.
+
+This environment allows the user to turn the lights on and off, as well as letting them change the color to red, green or blue.
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/light_demo.gif)
+
+It also has a "covid mode" that changes elements in the room and adds new elements.
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/covid_demo1.gif)
+
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/covid_demo2.gif)
+
+### Libraries Used:
+https://aframe.io/releases/1.0.4/aframe.min.js
+
+https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js
+
+https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js
+
 
 ## Imported Models:
 
