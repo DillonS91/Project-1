@@ -90,4 +90,49 @@ https://sketchfab.com/3d-models/tv-stand-38b4e5de27a5415ba830e3a831b56acc
 https://sketchfab.com/3d-models/ceiling-fan-household-props-challenge-day-19-2dda12be0b5c465394ff651cd7eb215a
 
 ### Door:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/door.JPG)
+
+https://sketchfab.com/3d-models/door-9d3a0da4dd1b40c99f91b6d4e13058bb
+
+### Windows:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/window.JPG)
+
+https://sketchfab.com/3d-models/window-f02fcf70449c465dbee19e20fd942953
+
+### Trees:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/tree.JPG)
+
+https://sketchfab.com/3d-models/laurel-tree-low-poly-f1a5baa9d2e24f27a98be75f23f38f35
+
+### Covid Model:
+![](https://github.com/DillonS91/Project-1/blob/master/screencap%20and%20gifs/Covid.JPG)
+
+https://sketchfab.com/3d-models/bacteria-1bf5fb9fb5c24ca1ba4f290e1b4a2839
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
