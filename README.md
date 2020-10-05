@@ -8,10 +8,10 @@ https://functional-sour-ridge.glitch.me/
 
 ## Demo Video Link:
 
-Brief version: https://www.youtube.com/embed/y7eFKOUaj5M
+Brief version: https://www.youtube.com/embed/CyWPddn0cVk
 -1 minute long
 
-Long version: https://www.youtube.com/embed/CyWPddn0cVk
+Long version: https://www.youtube.com/embed/y7eFKOUaj5M
 -2 minutes long (for class presentation)
 
 ## Project Description:
